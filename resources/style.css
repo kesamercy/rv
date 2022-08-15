@@ -1,0 +1,2209 @@
+:root {
+    --sitegreen: #212121;
+    --displaymessagecolor: #ff726f;
+    --founderpurple: #7c3467;
+    --sitegreen: #203128;
+    --siteyellow: #ffc107;
+    --sitelightBlue: #EBF5FF;
+}
+
+/* universal styles for all pages in the app */
+
+html * {
+    scroll-behavior: smooth;
+    font-family: 'Heebo', sans-serif;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+body {
+    color: var(--sitegreen);
+}
+
+/* app.js page  */
+
+.logo {
+    height: 50px;
+}
+
+/* nav bar */
+
+.nav-bar a:focus {
+    background: #98DFAF !important;
+    color: var(--sitegreen);
+}
+
+.nav-bar {
+    color: white;
+
+}
+
+.mobile-nav-bar {
+    background-color: white;
+    color: black;
+    width: 65%;
+    padding: 8% 5%;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+/* login page */
+
+.loginPage {
+    background: var(--sitegreen);
+}
+
+.login-box {
+    margin-top: 25%;
+}
+
+.loginModal {
+    width: 20%;
+}
+
+.auth-box {
+    padding: 5% 5%;
+}
+
+.auth-box h2 {
+    font-weight: 600;
+    color: var(--sitegreen);
+}
+
+/* sign up page */
+
+
+
+
+
+/* 404 page */
+
+.errorContent {
+    height: 100vh;
+}
+
+.errorContent h1, .errorPage h5 {
+    font-weight: 700;
+
+}
+
+.errorText {
+    font-size: 100px;
+}
+
+
+.errorPage {
+    background-image: url("images/large-leaf-bkgd.jpg");
+    color: white;
+}
+
+/* alert box */
+.alert-box {
+    width: auto;
+    margin: auto;
+}
+
+.alert-box p {
+    font-size: 15px !important;
+    width: 95%;
+}
+
+/* header page */
+
+.center-nav {
+    font-weight: 500;
+    font-size: large;
+    padding-left: 10%;
+}
+
+.user-greeting {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* index page */
+
+.loginSignup-btn {
+
+    font-weight: 500;
+}
+
+.index-icons {
+    width: 70%;
+    padding: 8%;
+}
+
+.index-icons img {
+    height: 50px;
+}
+
+.index-features h3 {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.index-features p {
+    width: 90%;
+}
+
+.farmer-intro-page {
+    padding: 5%;
+    background-color: var(--sitegreen);
+
+}
+
+.index-img {
+    height: 150px;
+    width: 95%;
+    margin-top: 2%;
+    opacity: 0.5;
+}
+
+.mobile-welcome img {
+    opacity: 0.5;
+    object-fit: contain;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.index-content {
+    padding: 15% 3%;
+}
+
+/* The animation code */
+/* The animation code */
+@keyframes example {
+    0% {
+        background-color: #4E6E58;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: #87C38F;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: #33673B;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: #297373;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: #7B9E89;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+.mobile-index-card {
+
+    width: 200px;
+    transform: rotate(45deg);
+    /* margin: auto; */
+    height: 300px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+.mobile-index-card h1 {
+
+    transform: rotate(-45deg);
+    font-size: 20px !important;
+
+}
+
+.farmer-message {
+    padding: 15% 0;
+    width: 100%;
+}
+
+.farmer-message h5 {
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.farmer-message p {
+    color: white;
+
+}
+
+.farmer-message a {
+    margin-top: 15%;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: var(--siteyellow);
+}
+
+
+.main-welcome-text {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.main-welcome-text h1 {
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 27px;
+    padding-top: 27%;
+    color: white;
+}
+
+.main-welcome-text p {
+    font-size: 17px;
+    padding-top: 10%;
+}
+
+.cta-banner h1 {
+    font-weight: 600;
+    font-size: 70px;
+    text-align: left;
+
+}
+
+.featureOne_section {
+    margin-top: 2%;
+    background-color: var(--sitegreen);
+    min-height: 100vh;
+    padding: 12% 3%;
+}
+
+.featureOne-title h4 {
+    font-size: 14px;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.services h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.analytics-title h4 {
+    font-size: 14px;
+    padding-top: 2%;
+}
+
+.grow-description p {
+    width: 80%;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.grow-description h3 {
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.grow-description h4 {
+    font-weight: 600;
+}
+
+.title-desc h1, .featureOne-title h1 {
+    color: var(--sitegreen);
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 4%;
+    margin: 0;
+}
+
+.title-desc h4 {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 3%;
+    color: slategray;
+}
+
+.title-desc h5 {
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li:before {
+    content: '✓';
+    padding-right: 1em;
+}
+
+.screenshot {
+    width: 85%;
+}
+
+.screenshot-pros {
+    width: 80%;
+}
+
+.instructions-img {
+    text-align: right;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+}
+
+.first-scroll-img {
+    width: 80%;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 5%;
+}
+
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 150%;
+
+}
+
+.image2 {
+    position: absolute;
+    top: 68px;
+    left: 114px;
+    width: 134%;
+}
+
+.bk-keeping-desc {
+    margin-top: 25%;
+    /* margin-bottom: 10%; */
+}
+
+.records-image {
+    width: 120% !important;
+}
+
+
+
+span {
+    color: var(--sitegreen);
+}
+
+/* faq page */
+
+.faq-header {
+    background-color: var(--sitegreen);
+    padding: 30% 5% 5%;
+    color: white;
+}
+
+.faq-header h1 {
+    color: white;
+}
+
+.faq-qtns {
+    background-color: white;
+    color: var(--sitegreen);
+}
+
+.faq-title, .pricing-title {
+    letter-spacing: -2px;
+    line-height: 45px;
+    padding-top: 4%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.faq-nav button {
+    font-size: 18px;
+}
+
+
+.faq-qtns .container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0.5rem !important;
+    border: 1px solid #e0e0e0 !important;
+}
+
+.faq-qtns .accordion {
+    cursor: pointer;
+    padding: 1rem !important;
+    width: 100%;
+    border-radius: 4px;
+    text-align: left;
+    outline: none;
+    font-size: 1rem;
+    transition: 0.4s;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.faq-qtns .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+}
+
+.faq-qtns .active:after {
+    content: "\2212";
+}
+
+.faq-qtns .panel {
+    font-size: 1rem;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 1.15rem 1.5rem;
+}
+
+.faq-qtns .category {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.faq-qtns h3 {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.faq-qtns .panel-group {
+    padding: 1rem !important;
+}
+
+.faq-qtns .questions-answers {
+    margin-bottom: 10px;
+}
+
+/* how it works page */
+
+.how-to-div {
+    max-height: 400px;
+    min-height: 400px;
+
+}
+
+.how-to-header {
+    padding-top: 10%;
+}
+
+.how-to-div img {
+    height: 64px;
+
+}
+
+/* productivity page */
+.updating-records {
+    width: 90%;
+}
+
+.site-modal {
+    padding: 5%;
+
+}
+
+.site-modal h3 {
+    font-weight: 600;
+}
+
+.site-modal img {
+    height: 50px;
+}
+
+/* analytics page */
+
+.analytics-page, .grow-food-page, .bookeeping-section, .user-page, .records-page, .research-page {
+    padding: 7% 1%;
+    color: var(--sitegreen);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.feature-header {
+    padding: 2% 0 5%;
+}
+
+.analytics-overview, .howtogrow-overview {
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+.analytics-metrics {
+    min-height: 190px;
+    padding: 5% 2% 2%;
+    margin: 3%;
+    text-align: center;
+    display: inline-block;
+}
+
+.analyticsLink, .growlink {
+    width: 40%;
+}
+
+.analytics-metrics input, .analytics-metrics p {
+    font-size: 12px;
+}
+
+.calc-card {
+    background-color: white;
+}
+
+.calc-submit {
+    background-color: var(--sitegreen);
+}
+
+.calc-card i {
+    color: var(--sitegreen);
+}
+
+.value-crop {
+    background-color: var(--sitegreen);
+}
+
+.value-crop i, .value-crop p, .value-crop h5 {
+    color: white;
+}
+
+.value-animal {
+    background-color: white;
+}
+
+
+.value-animal i, .value-animal p, .value-animal h5 {
+    color: var(--sitegreen);
+}
+
+.other-animal {
+    background-color: var(--siteyellow);
+}
+
+.other-animal i, .other-animal p, .other-animal h5 {
+    color: white;
+}
+
+.agric-activity {
+    background-color: #c2eabd;
+}
+
+.agric-activity h5, .agric-activity h3 {
+    color: var(--sitegreen);
+}
+
+.profile-content form {
+    margin-top: 3%;
+}
+
+.analytics-title h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+.bookeeping-section h1 {
+    padding-top: 0;
+    font-weight: 600;
+}
+
+/* analytics crop card */
+
+.crop-card {
+    padding: 5%;
+    min-height: 80vh;
+    max-height: 80vh;
+    font-size: 14px;
+}
+
+.crop-model {
+    color: var(--sitegreen);
+    overflow: auto;
+}
+
+.crop-model p {
+    color: gray;
+}
+
+.crop-header-pic {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.crop-card-icons {
+    width: 20px;
+}
+
+.crop-card-content i {
+    color: var(--sitegreen);
+}
+
+.crop-card-content h5 {
+    color: var(--sitegreen);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.image-header {
+    min-height: 100px;
+    padding: 7% 2% 10%;
+}
+
+.details-modal {
+    width: 25%;
+    padding: 2%;
+    background-color: var(--darkestgreen);
+}
+
+.details-title h1 {
+    letter-spacing: -2px;
+    font-size: 30px;
+    margin-top: 14%;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.search-icon {
+    height: 33px;
+}
+
+
+/* renew subscription page */
+
+.payment-modal {
+    padding: 10% 0;
+    text-align: center;
+}
+
+.payment-modal h5 {
+    font-weight: 600;
+}
+
+.pay-btn {
+    width: 89%;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+/* grow food page */
+
+/* grow food page background is in the analytics section */
+
+.grow-food-section {
+    color: var(--sitegreen);
+}
+
+.grow-card {
+    padding: 5%;
+    min-height: 50vh;
+    max-height: 50vh;
+}
+
+.grow-card h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.grow-modal-btn {
+    white-space: nowrap;
+}
+
+.how-to-grow-modal {
+    width: 30%;
+    padding: 2%;
+}
+
+.how-to-grow-modal h3 {
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.how-to-grow-modal p {
+    color: gray;
+    line-height: 45px;
+}
+
+/* book keeping */
+
+.bookeeping-title h4, .diary-form h4 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cell {
+    max-width: 90px;
+    /* tweak me please */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.expand-small-on-hover:hover {
+    max-width: 200px;
+    text-overflow: ellipsis;
+}
+
+.expand-maximum-on-hover:hover {
+    max-width: initial;
+}
+
+
+.bkeeping-table td, .bkeeping-table th {
+    padding: 0 15px;
+}
+
+.category-record-name h4 {
+    font-weight: 600;
+}
+
+.sector-nav {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.diary-form {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: left;
+}
+
+.diary-form h5 {
+    width: 70%;
+}
+
+.diary-form select {
+    width: 90%;
+}
+
+.start-update {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.diary-icon {
+    height: 45px;
+    margin: auto;
+}
+
+.record-icon-desc p {
+    width: 60%;
+    font-weight: 500;
+}
+
+.bkeeping-welcome-title {
+    font-size: 31px;
+    padding-top: 8%;
+    font-weight: 700;
+}
+
+.bkeeping-icons img {
+    height: 44px;
+    margin: 4% 0 2%;
+}
+
+
+/* change the color for the place holder text */
+
+.diary-form ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    opacity: 1;
+    font-weight: 200;
+    /* Firefox */
+}
+
+.diary-form :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red;
+}
+
+.diary-form ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red;
+}
+
+.diary-form label, .diary-form option, .diary-btn, .diary-type p {
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.cat-tracker {
+    color: green;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.diary-form h2 {
+    font-weight: 700;
+    margin-bottom: 8%;
+    font-size: 22px;
+}
+
+.skip-btn {
+    width: 20%;
+}
+
+.diary-nav {
+    margin-top: 2%;
+}
+
+.update-user {
+    margin: auto;
+}
+
+select option {
+    background-color: white;
+    color: var(--sitegreen);
+    font-size: 14px !important;
+}
+
+select {
+    background-color: transparent;
+}
+
+/* finances page */
+.dept-card {
+    padding: 1% 5%;
+    width: 90%;
+    background-color: var(--sitelightBlue);
+    color: black;
+}
+
+.transaction-card {
+    padding: 3%;
+    width: 98%;
+}
+
+/* records page */
+
+.finance-header h4, .finance-card h6, .expense-record-card p, .revenue-record-card p {
+
+    font-weight: 500;
+}
+
+.remedy {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.finances, .highest-expense {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.record-card {
+    padding: 3%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 5% 0% 10%;
+}
+
+.records-details {
+    width: 65%;
+    overflow: scroll;
+    max-height: 80vh;
+}
+
+.revenue-record-card {
+    background-color: var(--siteyellow);
+}
+
+
+.enemy-nav button {
+    font-size: 12px;
+}
+
+/* for the model for records */
+
+.finance-modal {
+    padding: 3%;
+}
+
+.finance-info {
+    width: 90%;
+}
+
+.finance-card {
+    background-color: #F2F3F5;
+    padding: 4%;
+    width: 95%;
+}
+
+.finance-card img {
+    margin: 5% 0 5%;
+    background-color: white;
+    height: 30px;
+}
+
+.finance-header {
+    width: 60%;
+    margin: auto;
+}
+
+.finance-header p, .finance-card p {
+    font-weight: 400;
+}
+
+.records-model {
+    background-color: #C4D6B0;
+    color: var(--sitegreen);
+}
+
+.records-model h2 {
+    color: var(--sitegreen);
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 500;
+}
+
+/* end of records model content */
+
+/* info records sections */
+.record-info-card {
+    /* overflow-y: scroll; */
+    max-height: 100vh;
+}
+
+.financial_status {
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.projections p {
+    font-size: 14px;
+    color: darkgreen;
+}
+
+/* complete payment */
+
+
+.completePay {
+    background-color: white;
+    margin-top: 30%;
+    padding: 28% 0%;
+}
+
+.completePay h2, .completePay h5 {
+    font-weight: 600;
+}
+
+/* pricing page */
+
+.price-content {
+    padding: 30% 0;
+    background-color: var(--sitegreen);
+}
+
+.pricing-main-board {
+    background-color: var(--sitegreen);
+    padding: 15% 5%;
+}
+
+.pricing-dets img {
+    height: 40px;
+    margin: 10%;
+}
+
+.price-content h1 {
+    font-weight: 600;
+}
+
+.pricing-nav h2 {
+    font-size: 18px;
+}
+
+.pricing-dets {
+    padding: 4% 10%;
+    width: 100%;
+    background-color: white;
+    margin-top: 15%;
+    margin: auto;
+}
+
+.acres-qtn {
+    font-size: 30px;
+}
+
+.pricing-dets h4 {
+    font-weight: 600;
+    padding: 0 0 15% 0;
+}
+
+.pricing-dets p {
+    text-align: left;
+}
+
+
+td p {
+    font-size: 14px;
+}
+
+th {
+    font-size: 14px;
+}
+
+/* profile page */
+
+.bkeeping-chart {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.main-profile button, .main-profile a {
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.info-links a {
+    font-size: 17px;
+    padding: 0 0;
+}
+
+
+.limits-card {
+    width: 95%;
+    padding-top: 3%;
+    color: black;
+}
+
+.limits-card h5 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.limits-card p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.user-info-card, .farm-budget {
+    width: 90%;
+    margin: auto;
+}
+
+.profile-account, .index-account-card {
+    padding: 3%;
+}
+
+
+
+.sub-summary p, .acct-state p {
+    /* font-size: 12px; */
+    color: gray;
+}
+
+.info-profile-card {
+    padding-top: 12%;
+}
+
+.farm-budget input, .user-info-card input, .farm-budget label {
+    font-size: 12px;
+}
+
+.acct-state a {
+    margin-top: 5%;
+}
+
+.profile-content {
+    padding: 0 3%;
+}
+
+.profile-content h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.profile-content h5 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.spending-limits {
+    padding: 3%;
+}
+
+.update-btn {
+    background-color: var(--siteyellow);
+    font-weight: 500;
+}
+
+.money-icon img {
+    height: 60px;
+}
+
+.revenue-card {
+    background-color: #C2EABD;
+}
+
+.revenue-card h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.season-card {
+    overflow-x: hidden;
+}
+
+.expenses-card {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/* dashboard page */
+
+.profile-container {
+    background-color: var(--sitegreen);
+}
+
+.main-profile a, .main-profile i, .main-profile button {
+    color: white;
+}
+
+.help-links a {
+
+    cursor: pointer;
+}
+
+/* side nav for new profile page */
+
+.profile-logo {
+    height: 50px
+}
+
+.profile-rv-name {
+    font-weight: 600;
+    color: white;
+}
+
+.de-activate, .acct-state {
+    background-color: #B6D094;
+}
+
+.delete {
+    background-color: #E2ECD4;
+}
+
+.profile-user-card {
+    background-color: var(--sitegreen);
+    color: white;
+}
+
+/* dashboard */
+.dashboard-card {
+    width: 85%;
+
+}
+
+.instruction-card {
+    width: 97%;
+    padding: 3%;
+}
+
+.instruction-card img {
+    height: 36px;
+    background-color: var(--siteyellow);
+}
+
+.dashboard-card button {
+    text-align: left;
+    background-color: white;
+    border: none;
+    padding: 8%;
+}
+
+.dashboard-nav h3 {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.dashboard-nav {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* p */
+
+/* Style the buttons inside the tab */
+
+.tab {
+    margin: 0;
+    padding: 0;
+    width: 11%;
+    position: fixed;
+}
+
+div.scrollmenu {
+    background-color: var(--sitegreen);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollmenu a {
+
+    color: white;
+    border: 1px solid white;
+    padding: 2%;
+    font-size: 12px;
+}
+
+div.widget-scrollmenu {
+    background-color: white;
+    padding-bottom: 64px;
+}
+
+.sub-menu {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    padding: 22px 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+    color: var(--siteyellow);
+    font-weight: 600;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+
+
+.tabcontent {
+    color: white;
+    height: 100%;
+}
+
+/* terms of use page */
+.terms {
+    background-color: white;
+    padding: 10% 20%;
+}
+
+.terms h1 {
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.terms p {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.terms h5 {
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* footer page */
+
+.footer-section, .footer-section h6 {
+    background-color: var(--sitegreen);
+    color: gray;
+}
+
+
+.footer-section a {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-col {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+/* general settings page */
+.account-state {
+    width: 50%;
+}
+
+/* profile settings page */
+
+.profile-setting h6 {
+    font-size: 15px;
+}
+
+/* contact page */
+
+.contact-info {
+    background-color: var(--sitegreen);
+}
+
+.contact-info h5 {
+    color: white;
+    font-size: 15px;
+}
+
+.contact-form {
+    margin: auto;
+    padding: 2%;
+    background-color: white;
+}
+
+.contactLink {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+.contact-nav button {
+    font-size: 16px;
+    white-space: normal;
+
+}
+
+.contact-nav {
+    padding-top: 30%;
+}
+
+.metric-input {
+    width: 40%;
+}
+
+
+
+
+/* about page */
+
+.about-founder-img {
+    height: 300px;
+}
+
+.founder-notes h5 {
+    font-size: 16px;
+}
+
+.about-welcome-small {
+    padding: 5%;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url(images/about-fruits.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.about-intro-small {
+    color: white;
+    padding-top: 55%;
+}
+
+.about-intro h1, .about-intro-small h1 {
+    font-weight: 600;
+    margin-top: 20%;
+}
+
+.about-intro h3, .about-intro-small h3 {
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.about-card {
+    padding: 5%;
+    width: 90%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(images/about-fruits.jpg);
+    background-size: cover;
+}
+
+.about-card h3 {
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.about-card h5 {
+    font-size: 16px !important;
+}
+
+.about-notes {
+    padding: 3% 3%;
+}
+
+.about-notes h5 {
+    padding: 3% 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.rv-content {
+    padding: 5% 1% 5%;
+    color: white;
+    background-color: var(--sitegreen);
+}
+
+.people-qtns {
+    padding: 3%;
+}
+
+.people {
+    padding: 4%;
+}
+
+
+.bio {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bio-img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.bio-title h5 {
+    font-weight: 600;
+}
+
+.bio-desc {
+    padding: 1% 8%;
+}
+
+.bio-desc p {
+    font-size: 18px;
+    color: var(--sitegreen);
+}
+
+.company h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.company {
+    padding-top: 15%;
+}
+
+.more-pple {
+    width: 70%;
+    margin: auto;
+}
+
+.idea-icon {
+    height: 50px;
+}
+
+.rv-work, .rv-pricing {
+    padding: 10% 5%;
+    background-color: white;
+    color: var(--sitegreen);
+}
+
+
+.rv-work h1 {
+    width: 95%;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.about-section-title h1 {
+    width: 100%;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.rv-work p {
+    font-size: 16px;
+}
+
+
+.farms {
+    margin-bottom: 10%;
+}
+
+.hr-line {
+    padding-top: 64px;
+}
+
+/* initial questions page */
+.initial-qtns {
+    padding: 10% 15% 3%;
+    background-color: var(--sitegreen);
+}
+
+
+
+.questions-section {
+    padding: 3% 5%;
+}
+
+.questions-section h5 {
+    font-weight: 600;
+}
+
+/* If the screen size is a desktop*/
+
+@media only screen and (min-width: 1025px) {
+
+    /* INDEX */
+
+    .analytics-page, .grow-food-page, .bookeeping-section, .records-page, .research-page {
+        padding: 1% 1%;
+        color: var(--sitegreen);
+        background-color: white;
+        border-radius: 20px;
+        min-height: 150vh;
+    }
+
+    .index-message h1, .index-message p {
+        color: white;
+        width: 70%;
+    }
+
+    .index-message h1 {
+        padding-top: 8%;
+        font-size: 50px;
+        letter-spacing: -2px;
+    }
+
+    .dashboard-nav h3 {
+        font-size: 23px;
+    }
+
+    .farmer-message {
+        padding: 0 10%;
+    }
+
+    .farmer-message h5 {
+        font-size: 20px;
+    }
+
+    .farmer-message a {
+        margin-top: 5%;
+        font-size: 18px;
+
+    }
+
+    .main-welcome-text p {
+        padding-top: 2%;
+    }
+
+    .index-icons img {
+        height: 70px;
+    }
+
+
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .logo {
+        height: 75px;
+    }
+
+    .featureOne_section {
+        padding: 0 15%;
+
+    }
+
+    .index-content {
+        padding: 0 20%;
+    }
+
+    .next-level-cta {
+        width: 50%;
+    }
+
+    .tabcontent {
+        display: none;
+        margin-left: 11%;
+        padding: 50px 20px;
+        height: 100%;
+    }
+
+    .revenue-card {
+        width: 70%;
+    }
+
+    .analytics-metrics {
+        min-height: 240px;
+        padding: 2% 2% 2%;
+        margin: 3%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .title-desc h5 {
+        width: 50%;
+    }
+
+    /* The animation code */
+    @keyframes example {
+        0% {
+            background-color: #4E6E58;
+            left: 0px;
+            top: 0px;
+        }
+
+        25% {
+            background-color: #87C38F;
+            left: 200px;
+            top: 0px;
+        }
+
+        50% {
+            background-color: #33673B;
+            left: 200px;
+            top: 200px;
+        }
+
+        75% {
+            background-color: #297373;
+            left: 0px;
+            top: 200px;
+        }
+
+        100% {
+            background-color: #7B9E89;
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    /* The element to apply the animation to */
+
+
+    .index-account-card {
+        width: 350px;
+        transform: rotate(45deg);
+        height: 500px;
+        animation-name: example;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    .index-account-card h1 {
+        transform: rotate(-45deg);
+        font-size: 35px;
+    }
+
+    .index-icons p {
+        width: 100%;
+    }
+
+    .index-icons-container {
+        width: 70%;
+    }
+
+
+
+    .welcome-text h4, .title-desc h4 {
+        font-size: 18px;
+    }
+
+    .farmer-intro-page {
+        padding: 2% 15%;
+        margin-top: 0;
+    }
+
+    .nav-bar {
+        padding: 10% 15%;
+        color: white;
+    }
+
+    .main-welcome-text p {
+        font-size: 22px;
+    }
+
+    .featureOne-title h1 {
+        letter-spacing: -2px;
+        width: 30%;
+        line-height: 45px;
+        margin: auto;
+    }
+
+    a .contact-info {
+        padding: 10% 25%;
+    }
+
+    .crop-card, .grow-card {
+        width: 95%;
+    }
+
+
+    .site-modal img {
+        height: 250px;
+    }
+
+    /* login */
+    .login-box {
+        margin-top: 10%;
+    }
+
+    /* analytics page  */
+
+    .analyticsLink, .growlink {
+        width: 25%;
+    }
+
+    .crop-header-pic {
+        object-fit: cover;
+        height: 60px;
+        width: 60px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+    }
+
+    .profile-content h5 {
+        font-size: 18px;
+    }
+
+    .crop-card {
+        padding: 4%;
+        min-height: 69vh;
+        max-height: 69vh;
+        overflow: auto;
+        font-size: 15px;
+
+    }
+
+    .analytics-title h1 {
+        width: 40%;
+        line-height: 45px;
+        font-size: 30px;
+    }
+
+    .profile-content h3 {
+        font-size: 24px;
+    }
+
+    .profile-account {
+        width: 40%;
+    }
+
+
+
+    .analytics-title h4 {
+        font-size: 18px;
+        width: 40%;
+        margin: auto;
+        padding-top: 2%;
+    }
+
+    .featureOne-title h4 {
+        font-size: 18px;
+        width: 20%;
+        margin: auto;
+        padding-top: 2%;
+    }
+
+    .market-header h1 {
+        padding-top: 10%;
+    }
+
+    .diary-form {
+        margin: auto;
+        padding-top: 0px;
+    }
+
+    /* grow page */
+    .grow-card h3 {
+        font-size: 24px;
+    }
+
+    .grow-card {
+        padding: 5%;
+        min-height: 40vh;
+        max-height: 40vh;
+    }
+
+    /* book keeping page */
+    .bookeeping-title h4, .diary-form h4 {
+        font-size: 20px;
+    }
+
+    .sector-nav {
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+
+    .book-shelf {
+        height: 400px;
+    }
+
+    .bkeeping-icons img {
+        height: 64px;
+        margin: 4% 0 2%;
+    }
+
+    .bkeeping-icons input {
+        border: 1px solid black;
+        border-radius: 4px;
+        font-size: 12px;
+        width: auto;
+        margin: auto;
+    }
+
+    .bkeeping-icons {
+        text-align: center;
+    }
+
+    .bkeeping-welcome-title {
+        font-size: 25px;
+        padding-top: 4%;
+    }
+
+
+    .diary-form label, .diary-form option, .diary-btn, .diary-type p {
+        font-size: 16px;
+    }
+
+
+    /* about page */
+    .about-welcome, .people, .farms, .about-cta {
+        padding: 0% 20% 0;
+    }
+
+    .founder-notes h5 {
+        font-size: 18px;
+    }
+
+
+    .about-page {
+        padding-top: 10%;
+        padding-bottom: 0;
+        background-color: var(--sitegreen);
+    }
+
+    .about-welcome img {
+        height: 50vh;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .about-intro {
+        height: 50vh;
+    }
+
+    .about-intro {
+        background-color: #D1FFD7;
+        padding: 3%;
+        color: var(--sitegreen);
+    }
+
+    .about-intro h5 {
+        color: var(--sitegreen);
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-intro h1 {
+        font-weight: 600;
+        letter-spacing: -2px;
+    }
+
+    .rv-work p {
+        font-size: 20px;
+    }
+
+    .rv-work h1 {
+        width: 60%;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .about-section-title h1 {
+        width: 95%;
+        font-weight: 600;
+        line-height: 45px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .rv-work {
+        padding: 10% 20%;
+
+    }
+
+
+    .about-notes {
+        padding: 3% 10%;
+    }
+
+    .about-notes h5 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .company {
+        padding-top: 0;
+    }
+
+
+
+
+
+    /*all services page */
+    .search {
+        height: 33px;
+    }
+
+    analytics h3, .grow-food-section h3, .records h3 {
+        font-weight: 500;
+    }
+
+    /* footer */
+    .footer-col {
+        text-align: left;
+    }
+
+    /* contact page */
+    .contact-form {
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    .contact-nav button {
+        font-size: 18px;
+    }
+
+    .update-user {
+        width: 95%;
+    }
+
+    .feedback-input {
+        width: 90%;
+    }
+
+    /* records page */
+    .record-card {
+        padding: 2%;
+        width: 95%;
+        min-height: 60vh;
+    }
+
+
+
+    .expense-record-card {
+        overflow-x: scroll;
+    }
+
+    .revenue-record-card {
+        overflow-x: scroll;
+    }
+
+    td p {
+        font-size: 16px;
+    }
+
+    th {
+        font-size: 15px;
+    }
+
+    .record-info-card h5 {
+        font-size: 18px;
+    }
+
+
+
+    /* complete payment */
+    .completePay {
+        background-color: white;
+        margin-top: 10%;
+        padding: 5% 30%;
+    }
+
+
+    /* pricing page */
+    .price-content {
+        padding: 8% 15% 5%;
+    }
+
+    .pricing-main-board {
+        padding: 0 15%;
+    }
+
+    .pricing-main-board h3 {
+        font-weight: 600;
+    }
+
+    .payment-modal {
+        padding: 5% 5%;
+        text-align: center;
+    }
+
+    .pricing-section {
+        padding: 15% 15%;
+    }
+
+
+    .pricing-nav h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .pricing-dets {
+        width: 95%;
+    }
+
+    /* proifle page */
+    .profile-setting select, .profile-setting input, .profile-setting textarea {
+        width: 60%;
+    }
+
+    .profile-setting h6 {
+        font-size: 16px;
+    }
+
+    .tab button {
+        font-size: 17px;
+    }
+
+    /* faq page */
+    .faq-qtns {
+        padding: 2% 20%;
+
+    }
+
+    .faq-qtns h3 {
+        font-size: 27px;
+    }
+
+    .faq-header {
+        padding: 8% 20% 5%;
+    }
+
+    /* contact page */
+    .contact-info {
+        padding: 8% 20% 0;
+    }
+
+    .contact-nav {
+        padding-top: 0;
+    }
+
+    .contact-info h5 {
+        font-size: 18px;
+    }
+
+    /* initial qtns page */
+    .questions-section {
+        padding: 3% 30%;
+    }
+
+
+}
+
+/* styling for the ipad pro*/
+
+@media (width: 1024px) and (min-height: 1366px) {}
+
+@media (max-width: 768px) {
+    .w3-modal-content {
+        width: 100%;
+    }
+}
+
+/* styling for the scroll bar */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 2px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: var(--siteyellow);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+/* styling for the loader */
+
+/* Paste this css to your style sheet file or under head tag */
+
+/* This only works with JavaScript,
+if it's not present, don't show loader */
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(images/Apple.gif) center no-repeat #fff;
+}

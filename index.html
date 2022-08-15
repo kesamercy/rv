@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="resources/images/favicon.ico" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo-bw.png" />
+    <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+
+    <!-- link to styles -->
+    <link rel="stylesheet" href="resources/w3.css">
+    <link rel="stylesheet" href="resources/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7dbec92a58.js" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NW5MX6H61"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-6NW5MX6H61');
+    </script>
+
+    <title>Raining Vegetables</title>
+    <meta name="description"
+        content="Track your daily farm activities and finances while receiving guidance on best farming practices." />
+</head>
+
+<body>
+    <div class="se-pre-con"></div>
+<!-- begin header -->
+<div class='w3-top'>
+    <div class='w3-bar nav-bar w3-padding-16'>
+        <a href='index.php' class='w3-bar-item w3-button'><img class='logo' src='resources/images/logo-bw.png'
+                alt='Raining Vegetables Logo' /></a>
+
+
+        <a onclick="document.getElementById('id01').style.display='block'"
+            class='w3-bar-item w3-button loginSignup-btn w3-round-medium w3-red w3-margin-top w3-right w3-hide-small'>Announcement</a>
+
+        <a href='javascript:void(0)' class=' w3-red update-btn w3-round w3-bar-item w3-margin-top w3-button w3-hide-large w3-hide-medium'
+        onclick="document.getElementById('id01').style.display='block'">Announcement</a>
+    </div>
+
+</div>
+
+
+<!-- end header -->
+
+    <div class="farmer-intro-page">
+
+        <div class="main-welcome-text">
+
+            <div class="w3-row farmer-message">
+
+
+
+                <div class=" w3-col  l10 index-message">
+                    <h5>Raining Vegetables</h5>
+
+                    <!-- THIS IS THE icosns for the mobile version -->
+
+
+                    <h1> Understand your farm's <span class=" w3-text-amber"> <br> business performance </span> <span
+                            class=" w3-text-amber"> </span></h1>
+
+                    <p>Track your farm's sales and expenses in real time to better understand business performance.</p>
+                    <p> Track farm productivity and estimate harvest projections.</p>
+
+
+                    <button onclick="document.getElementById('id01').style.display='block'"
+                        class="w3-button update-btn w3-amber">Get Started</button>
+
+                    <div id="id01" class="w3-modal  ">
+                        <div class="w3-modal-content w3-border w3-round site-modal">
+                            <span onclick="document.getElementById('id01').style.display='none'"
+                                class="w3-button w3-xxlarge w3-display-topright">&times;</span>
+
+                            <div class=" w3-row">
+
+                                <div class=" w3-half">
+                                    <img src="resources/images/logo.png" alt="">
+                                </div>
+
+                                <div class=" w3-half">
+
+                                    <h3>We Have MOVED!</h3>
+
+                                    <h6> We now have capabilities that allow other businesses to manage their finances
+                                        on our app in addition to our farm management services. As a result, all
+                                        businesses (farmers and other non-farming related sectors) can access various
+                                        business management and financial services in one
+                                        location on our app called
+                                        <b>
+                                            Sundetails.</b>
+                                    </h6>
+
+                                    <a class=" w3-small w3-round w3-purple w3-btn" href="https://sundetails.com/">
+                                        Go to Sundetails</a>
+
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+
+                    <br><br><br>
+                </div>
+
+                <div class=" w3-hide-small w3-hide-medium w3-col l2">
+
+                    <div class="w3-card-4 index-account-card profile-user-card w3-round-xlarge w3-padding-24 ">
+                        <header class="w3-container bio-title">
+                            <img src="resources/images/cow.gif" class="profile-img" alt="Alps">
+                        </header>
+                        <h1>Farming as a Business </h1>
+
+                        <footer>
+                            <div class=" w3-row">
+                                <div class=" info-profile-card w3-col m6 s6 l6">
+                                    <small class=" w3-text-gray"> </small>
+                                    <br>
+                                    <small></small>
+
+                                </div>
+
+                                <br><br>
+                                <div class=" w3-col l6 m6 s6">
+                                    <br><br> <br>
+                                    <img src="resources/images/logo-bw.png" class="profile-logo w3-right" alt="logo">
+                                    <br><br><br>
+                                    <small class=" w3-right">Raining Vegetables</small>
+                                </div>
+
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <section class="index-content">
+
+        <div class="w3-container w3-center market">
+            <div class="title-desc w3-center market-header" id="marketPrice">
+                <h1> Features</h1>
+                <h5 class=" w3-padding-16 w3-text-gray">All the features you want. Raining Vegetables makes it easy to
+                    track your money and farming activities for your farm. </h5>
+            </div>
+
+            <div class=" w3-padding-64 index-features w3-row">
+                <div class=" w3-col l3">
+                    <img src="resources/images/dashboard-feature.png">
+
+                    <h3>Sales reports</h3>
+                    <p>A sales report helps you understand which activities have the highest and lowest returns for your
+                        farming business.</p>
+
+                </div>
+
+                <div class=" w3-col l3">
+                    <img src="resources/images/financial-report-feature.png">
+
+                    <h3>Expense reports</h3>
+                    <p>Get insight into your farm's expenses. See which activities are making you lose money so you can
+                        manage these expenses for future gains.</p>
+
+                </div>
+
+                <div class=" w3-col l3">
+                    <img src="resources/images/farm-report-feature.png">
+
+                    <h3>Productivity reports</h3>
+                    <p>See which farming practices aided in higher yields and which ones did not so you can course
+                        correct for future yields.</p>
+
+                </div>
+
+                <div class=" w3-col l3">
+                    <img src="resources/images/budget-feature.png">
+
+                    <h3>Budget planning</h3>
+                    <p>Set a budget plan and track your expenditures to monitor how your current expenditure aligns with
+                        your budget goals.</p>
+
+                </div>
+
+            </div>
+
+            <div class=" w3-padding-32">
+                <button onclick="document.getElementById('id01').style.display='block'"
+                    class="w3-button update-btn w3-amber">Get Started</button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- how to grow the food section -->
+    <section id="grow-section" class="featureOne_section">
+
+        <div class="w3-container featureOne">
+
+            <div class="w3-center featureOne-title market-header">
+                <h1 class="w3-text-white"> What you get. </h1>
+            </div>
+
+
+            <!-- analytics feature -->
+            <div class="w3-row bk-keeping-desc">
+                <div class="w3-col l5 grow-description w3-text-white w3-padding-64">
+                    <h3>Track all your farming sectors</h3>
+
+                    <p> Grow 3 different crops and rear animals? We got you. Keep track of all activities in your
+                        different farming sectors by entering farm data
+                        into the app. Your records will be kept securely so that you can access all farm records at any
+                        time and from any location. </p>
+
+
+
+
+                </div>
+                <div class="w3-col l7">
+                    <div class="frame-image">
+                        <img class="w3-margin-64 w3-hide-small w3-hide-medium w3-card-4 w3-round-large instructions-img"
+                            src="resources/images/dashhh.png" alt="">
+
+                        <div class=" scrollmenu w3-hide-large">
+                            <img class="w3-margin-64 w3-card-4 first-scroll-img w3-round-large w3-hide-large instructions-img"
+                                src="resources/images/bk-keeping2.png" alt="">
+
+                            <img class="w3-margin-64 w3-card-4 w3-round-large w3-hide-large instructions-img"
+                                src="resources/images/bk-keeping1.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- how to grow  -->
+
+            <div class="w3-row bk-keeping-desc">
+                <div class="w3-col l5 grow-description w3-text-white w3-padding-64">
+                    <h3>Track your finances</h3>
+
+                    <p class=""> Find information about your farm's financial state by
+                        viewing your revenue, expenses, and budget limits in one place to help you keep track of your
+                        farm's financials.
+                    </p>
+
+
+                </div>
+                <div class="w3-col l7">
+                    <div class=" w3-row">
+                        <div class=" w3-col l7">
+                            <img class="w3-margin-64 w3-hide-small w3-hide-medium w3-card-4 w3-round-large instructions-img"
+                                src="resources/images/farm-budget.png" alt="">
+
+                            <div class=" scrollmenu w3-hide-large">
+                                <img class="w3-margin-64 w3-card-4 first-scroll-img w3-round-large w3-hide-large instructions-img"
+                                    src="resources/images/buget-limit-mobile.png" alt="">
+
+                                <img class="w3-margin-64 w3-card-4 w3-round-large w3-hide-large instructions-img"
+                                    src="resources/images/mobile-revenue.png" alt="">
+
+                                <img class="w3-margin-64 w3-card-4 w3-round-large w3-hide-large instructions-img"
+                                    src="resources/images/expense-bkdwn.png" alt="">
+                            </div>
+
+
+
+                        </div>
+
+                        <div class=" w3-col l5 w3-hide-small w3-hide-medium ">
+                            <div class=" parent">
+                                <img class="w3-margin-64 w3-card-4 w3-round-large image1 instructions-img"
+                                    src="resources/images/revenue.png" alt="">
+
+                                <img class="w3-margin-64 w3-card-4 w3-round-large image2 instructions-img"
+                                    src="resources/images/expense-bkdwn.png" alt="">
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Book keeping  -->
+
+            <div class="w3-row bk-keeping-desc">
+                <div class="w3-half grow-description w3-text-white w3-padding-64">
+                    <h3>Keep track of your productivity records</h3>
+
+                    <p class=""> Find a collection of all your farm records, broken down
+                        into different categories for easy tracking. A breakdown of your harvest, planting, labor, and
+                        all general records, among other things.
+                    </p>
+
+                </div>
+                <div class="w3-half">
+                    <img class="w3-margin-64 w3-hide-small w3-hide-medium records-image w3-card-4 w3-round-large instructions-img"
+                        src="resources/images/farm-records.png" alt="">
+                    <img class="w3-margin-64 w3-hide-large w3-card-4 w3-round-large instructions-img"
+                        src="resources/images/farm-records-mobile.png" alt="">
+                </div>
+
+            </div>
+
+
+
+            <div class="w3-container w3-padding-64 w3-center featureOne">
+
+
+                <button onclick="document.getElementById('id01').style.display='block'"
+                    class="w3-button w3-margin-top w3-large update-btn w3-amber">Get Started</button>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+   <!-- begin footer -->
+
+   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<footer class="font-small w3-container footer-section w3-padding-64">
+    <div fluid class="w3-center">
+
+        <div class="w3-row w3-padding-64">
+            <!-- logo col -->
+            <div lg="3" sm="1" md="4" class="w3-quarter w3-padding-24">
+
+            </div>
+
+
+            <!-- first col -->
+            <div lg="3" sm="1" md="4" class="w3-quarter footer-col w3-padding-32">
+                <a href='index.php' class='w3-bar-item w3-button'><img class='logo' src='resources/images/
+logo-bw.png' alt='Raining Vegetables Logo' /></a>
+                <h3> <a class=" w3-text-white" href="index.php"> Raining Vegetables</a></h3>
+
+            </div>
+
+            <!--  middle col-->
+            <div lg="3" sm="1" md="4" class="w3-quarter footer-col w3-padding-32">
+
+
+                <div>
+                    <h5>Whatsapp / Phone: +256787463615</h5>
+                </div>
+
+                <h5 class="list-unstyled">
+                    <a target="_blank" rel="noopener noreferrer" class="fa fa-facebook"
+                        href="https://www.facebook.com/rainingvegetables"></a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a target="_blank" rel="noopener noreferrer" class="fa fa-instagram"
+                        href="https://www.instagram.com/accounts/login/?next=/rainingvegetables/"></a>&nbsp; &nbsp;
+                    &nbsp;&nbsp;
+                    <a target="_blank" rel="noopener noreferrer" class="fa fa-twitter"
+                        href="https://twitter.com/rainingveges"></a>
+                </h5>
+
+
+            </div>
+
+            <!-- last col -->
+            <div lg="3" sm="1" md="4" class="w3-quarter footer-col w3-padding-32">
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="footer-copyright w3-center w3-text-black py-3">
+        <div class="w3-text-white" fluid>
+
+            &copy; <script>
+            document.write(new Date().getFullYear())
+            </script> Copyright: <a href=""> Raining Vegetables.
+                All Rights Reserved. </a>
+        </div>
+    </div>
+</footer>
+
+
+   <!-- end footer -->
+
+
+    <script src="resources/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <script>
+    // prevent the page from re-submission on page refresh
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+
+    // loader icon
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+    </script>
+
+</body>
+
+
+
+</html>
